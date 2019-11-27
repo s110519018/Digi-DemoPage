@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="../css/model.css">
+    <link rel="stylesheet" href="../css/hover.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>Model</title>
+  </head>
+<body data-spy="scroll" data-target="#nav" data-offset="0">
+      <!-- <nav class="fixed-top d-flex justify-content-end align-items-center mr-3">
+        <ul class="nav flex-column  nav-mine" id="nav">
+          <li class="nav-item mb-1"><a href="#article1" class="nav-link"></a></li>
+          <li class="nav-item mb-1"><a href="#article2" class="nav-link"></a></li>
+          <li class="nav-item mb-1"><a href="#article3" class="nav-link"></a></li>
+          <li class="nav-item mb-1"><a href="#article4" class="nav-link"></a></li>
+          <li class="nav-item mb-1"><a href="#article5" class="nav-link"></a></li>
+          <li class="nav-item mb-1"><a href="#article6" class="nav-link"></a></li>
+          <li class="nav-item mb-1"><a href="#article7" class="nav-link"></a></li>
+          <li class="nav-item mb-1"><a href="#article8" class="nav-link"></a></li>
+        </ul> -->
+      </nav>
+
+      <section>
+
+        <article id="article1" class="article article1">
+          <img src="../img/model/modelpic.svg" alt="" class="modelpic" >
+          <img src="../img/model/b-land.svg" alt="" class="b-land">
+          <a href="index.html" class="girl"><img src="../img/model/girl.svg" alt=""></a>
+          <img src="../img/model/l-land.svg" alt="" class="l-land">
+          <img src="../img/model/r-land.svg" alt="" class="r-land">
+          <img src="../img/model/badfish.svg" alt="" class="badfish">
+          <img src="../img/model/kkfish.svg" alt="" class="kkfish">
+          <img src="../img/model/bigcloud.svg" alt="" class="bigcloud">
+          <img src="../img/model/smallcloud.svg" alt="" class="smallcloud">
+          <img src="../img/model/sun.svg" alt="" class="sun">
+        </article>
+        
+        <article id="article8" class="article article8">
+
+          <!-- <div class="QA">Q&A</div> -->
+          <div class="d-flex align-items-center justify-content-around ">
+            
+            <div class="q-frame">
+              <div id="q-box0" class="q-box">
+
+                
+
+              </div>
+              <h1>A</h1>
+            </div>
+
+            <div class="q-frame">
+              <div id="q-box1" class="q-box">
+              </div>
+              <h1>B</h1>
+            </div>
+
+            <div class="q-frame">
+              <div id="q-box2" class="q-box">
+              </div>
+              <h1>C</h1>
+            </div>
+          </div>
+
+              <div class="group d-flex align-items-center justify-content-center">
+                <label for="" style="padding-top: 15px;">哪一個人是盜刷？</label>
+                <div class="form-check form-check-inline">
+                    <input class="option-input radio" type="radio" name="who" id="b1" value="0" required>
+                    <label style="padding-top: 15px;" for="b1">A</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="option-input radio" type="radio" name="who" id="b2" value="1" required>
+                    <label style="padding-top:15px;" for="b2">B</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="option-input radio" type="radio" name="who" id="b3" value="2" required>
+                    <label style="padding-top: 15px;"for="b3">C</label>
+                </div>
+                <div class="gobtn">送出</div>
+              </div>
+
+            <!-- 解答按鈕開始 -->
+            <div id="answer-modal" class="answer-modal-window">
+            <div>
+              <span class="answer-modal-close" id="close">&times</span>
+              <div class="answer-modal-text"></div>
+            </div>
+          </div>
+          <!-- 解答按鈕結束 -->
+        </article>
+
+
+
+        <article id="article2" class="article article2">
+          <img src="../img/model/dataprocess.svg" alt="" class="dataprocess">
+          <p class="ap">進行機器學習前，我們首先需要對資料進行適當的處理。詳細處理步驟如下圖所示：</p>
+          <div class="steps">
+            <div class="d-flex justify-content-around">
+              <img src="../img/model/step1.svg" alt="">
+              <img src="../img/model/step2.svg" alt="">           
+            </div>
+            <div class="d-flex justify-content-around">
+              <img src="../img/model/step3.svg" alt="">
+              <img src="../img/model/step4.svg" alt="">           
+            </div>
+          </div>
+        </article>
+
+        <article id="article3" class="article article3">
+          <h1>初步模型測試結果</h1>
+          <p class="ap">有了處理好的資料，我們開始嘗試各種不同機器學習演算法的Model。<br>預期找出最好的演算法Model後，再進行更進一步的訓練。預測結果圖如下所示：</p>
+          <!-- 資訊按鈕開始 -->
+            <div class="btn hvr-buzz-out"><img src="../img/model/info.svg" alt=""></div>
+          <div id="open-modal" class="modal-window">
+            <div>
+              <span class="modal-close">&times</span>
+              <img src="../img/model/accuracy.svg" alt="" class="accuracy">           
+              <img src="../img/model/F1score.svg" alt="" class="F1score">           
+              <p>P: 正樣本數(有盜刷) N:負樣本數(沒盜刷)<br>TP: True Positive 預測為正、實際也為正  TN: True Negative 預測為負、實際也為負 <br>FP: False Positive 預測為正、實際為負     FN: False Negative 預測為負、實際為正<br></p>
+            </div>
+          </div>
+          <!-- 資訊按鈕結束 -->
+          <div class="d-flex justify-content-around pics">
+            <div class="pic1">
+              <iframe src="time.html" width="450" height="350" frameborder="0" scrolling="no"></iframe>
+              <p>圖1. 各模型所需訓練時間統計(單位：秒) </p>
+            </div>
+            <div class="pic2">
+              <iframe src="barplot.html" width="450" height="350" frameborder="0" scrolling="no"></iframe>
+              <p>圖2. 各模型所得預測分數結果</p>
+            </div>
+          </div>
+        </article>
+
+        <article id="article4" class="article article4">
+          <img src="../img/model/question-mark.svg" alt="" class="question wow bounceIn" data-wow-duration="2s"  data-wow-delay="1s">           
+          <div class="rectangle wow bounceInLeft" >
+            <h1>初步嘗試了五種不同的模型</h1>
+            <p>圖1結果顯示決策樹所需訓練時間最短；<br>圖2結果顯示決策樹所獲得預測分數最高。<br>
+因此綜合上述兩圖結果，我們可得知決策樹為比較適合的演算法。</p>
+          </div>
+          <div class="d-flex flex-column method  wow bounceInRight" >
+            <p>最近距離法(KNN)</p>
+            <p>邏輯式回歸(Logistic Regression)</p>
+            <p>支撐向量機(SVM)</p>
+            <p>決策數(Decision Tree)</p>
+            <p>神經網路演算法(Neural Network)</p>
+          </div>
+        </article>
+
+        <article id="article6" class="article article6">
+          <h1>模型確立</h1>
+          <p class="ap">測試出決策樹為比較好的演算法後，我們開始套用與此演算法相關，但更為複雜的其他模型，例如：CatBoost、LightGBM、Xboost等等。最後CatBoost模型得到最好的預測結果，如下圖所示：</p>
+          <div class="d-flex justify-content-around">
+            <div class="pic1">
+              <iframe src="Catboost_Acc_Compare.html" width="450" height="350" frameborder="0" scrolling="no"></iframe>
+              <p>圖3. Catboost模型預測結果</p>
+            </div>
+            <div class="pic4">
+              <iframe src="Catboost_Matrix.html" width="450" height="350" frameborder="0" scrolling="no"></iframe>
+              <p>圖4. Catboost混淆矩陣</p>
+            </div>
+          </div>
+        </article>
+        
+        <article id="article5" class="article article5">
+          <img src="../img/model/question-mark.svg" alt="" class="question wow bounceIn" data-wow-duration="2s"  data-wow-delay="1s">           
+          <div class="rectangle wow bounceInLeft" >
+            <h1>進階嘗試了三種不同的模型</h1>
+            <p>圖3為前段所述最好模型(決策樹)和新模型CatBoost預測結果比較。<br>
+              圖4為CatBoost模型的混淆矩陣，可看出仍會有誤判的情形產生<br>
+              綜合上方兩圖，CatBoost在學習階段準確度無如決策樹高，但在測試階段的表現遠高過原來的決策樹，解決原本「Overfitting」的問題。</p>
+          </div>
+          <div class="d-flex flex-column method  wow bounceInRight" >
+            <p>CatBoost</p>
+            <p>LightGBM</p>
+            <p>Xboost</p>
+            <h3>目前CatBoost為最適模型，<br>準確率可高達0.87，<br>但未來仍需更多的模型訓練，<br>以更加精進模型的準確度。</h3>
+          </div>
+        </article>
+
+        <article id="article7" class="article article7">
+          <h1>場域應用</h1>
+          <p class="ap">在資料庫中新增一變數，放置模型預測結果，供客服人員參考使用</p>
+          <img src="../img/model/Image.svg" alt="" class="Image">
+        </article>
+        
+        
+
+      </section>
+
+      <footer>
+        
+        <div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/"             title="Flaticon">www.flaticon.com</a></div>  
+        <div>Icons made by <a href="https://www.flaticon.com/authors/eucalyp" title="Eucalyp">Eucalyp</a> from <a href="https://www.flaticon.com/"             title="Flaticon">www.flaticon.com</a></div>
+        <div>Icons made by <a href="https://www.flaticon.com/authors/smashicons" title="Smashicons">Smashicons</a> from <a href="https://www.flaticon.com/"             title="Flaticon">www.flaticon.com</a></div>
+
+
+      </footer>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
+    <script src="../js/model.js"></script>
+    <script type="text/javascript" src="../js/weblist.json"></script>
+  </body>
+</html>

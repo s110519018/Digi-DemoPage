@@ -1,0 +1,8 @@
+<svg id="F1score" xmlns="http://www.w3.org/2000/svg" width="490.553" height="266.725" viewBox="0 0 490.553 266.725">
+  <rect id="Rectangle_46" data-name="Rectangle 46" width="490.553" height="266.725" rx="133.362" fill="#eec285"/>
+  <text id="F1_score_" data-name="F1 score   =     " transform="translate(38.284 116.559)" fill="#f3f3f3" font-size="28" font-family="MicrosoftJhengHeiRegular, Microsoft JhengHei" letter-spacing="0.05em"><tspan x="0" y="0" xml:space="preserve">F1 score   =   </tspan></text>
+  <line id="Line_26" data-name="Line 26" x2="184.846" transform="translate(260.559 109.764)" fill="none" stroke="#f3f3f3" stroke-width="1"/>
+  <text id="_2TP_" data-name="2TP " transform="translate(320.284 84.559)" fill="#f3f3f3" font-size="28" font-family="MicrosoftJhengHeiRegular, Microsoft JhengHei" letter-spacing="0.05em"><tspan x="0" y="0">2TP</tspan></text>
+  <text id="_2TP_FN_FP_" data-name="2TP + FN + FP " transform="translate(242.284 153.559)" fill="#f3f3f3" font-size="28" font-family="MicrosoftJhengHeiRegular, Microsoft JhengHei" letter-spacing="0.05em"><tspan x="0" y="0">2TP + FN + FP</tspan></text>
+  <text id="F1越高表示模型越穩健_" data-name="F1越高表示模型越穩健 " transform="translate(112.284 226.559)" fill="#f3f3f3" font-size="24" font-family="MicrosoftJhengHeiRegular, Microsoft JhengHei" letter-spacing="0.05em"><tspan x="0" y="0">F1越高表示模型越穩健</tspan></text>
+</svg>

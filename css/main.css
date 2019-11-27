@@ -1,0 +1,1477 @@
+
+html,
+body {
+  font-family: Microsoft JhengHei;
+  margin: 0 auto;
+  background-color: #F7F7F7;
+  scroll-behavior: smooth; //滑順的滾動
+}
+
+body{
+	padding: 0;
+	overflow-x: hidden;
+}
+
+nav{
+	display: none;	
+}
+
+
+
+
+
+
+article{
+	width: 100vw;
+	height: 100vh;
+	/*border: 1px solid;*/
+}
+
+.article-title{
+	/*border: 1px solid;*/
+
+	opacity: 0;
+	transition: all 1s;
+}
+.article-title-active{
+	opacity: 1;
+	transition: all 1.5s;
+}
+
+.article1{
+	position: relative;
+}
+.article1 a{
+	text-decoration: none;
+}
+.article1-title{
+	margin-left: 67px;
+	margin-top: 200px;
+	letter-spacing: 3px;
+	color: #353535;
+	font-size: 58px;
+	font-weight: bold;
+}
+.article1-title p{
+	line-height: 70px;
+}
+.article1-title p:nth-child(2){
+	margin-left: 220px;
+}
+.link{
+	padding-top: 10px;
+	padding-right: 60px;
+}
+.link .model{
+	padding-left: 130px;
+}
+.link a{
+	z-index: 9999;
+	cursor: pointer;
+	letter-spacing: 3px;
+	color: #353535;
+	font-size: 22px;
+}
+.link a:hover{
+	text-decoration: underline;
+}
+.first-img{
+	position: absolute;
+	top: 55px;
+	right: 40px;
+	/*width: 937px;
+	height: 911px;*/
+	/*width: 604px;
+	height: 588px;*/
+	width: 45%;
+}
+.start-btn{
+	margin-top: 70px;
+	margin-left: 280px;
+	letter-spacing: 2px;
+	line-height: 37px;
+	font-size: 22px;
+	text-align: center;
+	width: 152px;
+	height: 37px;
+	border-radius: 20px;
+	color: #F7F7F7;
+	background-color: #1F3F9B;
+	transition-duration: 0.5s;
+	cursor: pointer;
+	color: #F7F7F7;
+	text-decoration: none;
+}
+
+.start-btn:hover{
+	color: #1F3F9B;
+	border: 1px solid #1F3F9B;
+	background-color: #F7F7F7;
+}
+.r-Rectangle,.l-Rectangle{
+	width: 700px;
+	height: 380.61px;
+	opacity: 0.6;
+}
+
+.kkday-info{
+	position: relative;
+	z-index: 0;
+}
+.KKday_Logo{
+	margin-left: 217px;
+	margin-top: 30px;
+	width: 211.81px;
+	height: 95.07px;
+}
+.r-Rectangle{
+	z-index: 1;
+	position: absolute;
+	margin-top: 20px;
+	right: 0;
+	height: 361.23px;
+}
+
+
+.kkday-info p{
+	position: absolute;
+	z-index: 2;
+	margin-left:  99.6px;
+	margin-top: 30px;
+
+	letter-spacing: 3px;
+	font-size: 20px;
+	color: #353535;
+}
+
+.crime-info{
+	z-index: 0;
+	margin-top: 180px;
+	position: relative;
+}
+.crime{
+	position: absolute;
+	top: 50px;
+	right: 100px;
+	width: 247.18px;
+	height: 247.18px;
+}
+.crime-info p{
+	position: absolute;
+	z-index: 2;
+	letter-spacing: 3px;
+	margin-top: 170px;
+	margin-left: 117px;
+	width: 750px;
+	font-size: 20px;
+	color: #353535;
+}
+.crime-info p:nth-of-type(2){
+	margin-top: 250px;
+	margin-left: 290px;
+}
+.l-Rectangle{
+	position: absolute;
+	z-index: 1;
+	height: 361.23px;
+}
+.article3{
+	position: relative;
+	z-index: 0;
+}
+.l-wave{
+	z-index: 1;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 430px;
+	height: 240px;
+	opacity: 0.6;
+}
+
+.kkfish{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	z-index: 2;
+}
+.badfish{
+	position: absolute;
+	z-index: 2;
+	top: 0;
+	right: 0;
+}
+.question{
+	position: absolute;
+	z-index: 3;
+	top:40%;
+	left: 50%;
+	transform: translateX(-50%);
+	text-align: center;
+	color: #353535;
+}
+.question h1{
+	width: 1300px;
+	font-size: 60px;
+}
+
+.question p{
+	font-size: 20px;
+	margin-top: 50px;
+}
+
+.article4 {
+	padding-top: 90px;
+	text-align: center;
+}
+
+.article4 h1{
+	font-size: 42px;
+	color: #353535;
+}
+.all-effect{
+	margin-top: 50px;
+	height: 100%;
+}
+.effect{
+	width: 278px;
+	height: 518.85px;
+}
+.effect img{
+	width: 174px;
+	height: 174px;
+}
+
+.effect p{
+	margin-top: 77px;
+	font-size: 30px;
+	letter-spacing: 3px;
+	color: #707070;
+}
+
+.modellink{
+	margin-top: 100px;
+	margin-left: 250px;
+	cursor: pointer;
+	/*border:1px solid;*/
+}
+.we{
+	position: relative;
+	margin-top: 50px;
+	left: 120px;
+}
+.we p{
+	position: absolute;
+	top: 244px;
+	color: #F5E2C8;
+	font-size: 25px;
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+.you{
+	left: 160px;
+}
+.yu{
+	left: 350px;
+}
+.guan{
+	left: 560px;
+}
+.zi{
+	left: 810px;
+}
+.team{
+	width: 80%;
+	height: 80%;
+}
+.circle{
+	position: relative;
+}
+.watergrass{
+	position: absolute;
+	z-index: 1;
+	width: 254px;
+	height: 250px;
+	top: 100px;
+	left: 280px;
+}
+.ellipse{
+	position: absolute;
+	z-index: 0;
+	left: 0;
+	width: 100vw;
+}
+.circle-text-kkday{
+	position: absolute;
+	z-index: 1;
+	left: 725px;
+	top: 144px;
+	color: #f7f7f7;
+}
+
+.circle-text-cdri{
+	position: absolute;
+	z-index: 1;
+	left: 875px;
+	top: 144px;
+	color: #f7f7f7;
+}
+
+
+
+@media screen and (min-width: 1920px) {
+
+/* 如果使用者視窗寬度 >= 1920px */
+
+.article1-title{
+	margin-left: 67px;
+	margin-top: 280px;
+	letter-spacing: 3px;
+	color: #353535;
+	font-size: 89px;
+	font-weight: bold;
+}
+
+
+.article1-title p{
+	line-height: 100px;
+}
+.article1-title p:nth-child(2){
+	margin-left: 330px;
+}
+
+
+.first-img{
+	position: absolute;
+	top: 105px;
+	right: 40px;
+	width: 900px;
+	height: 840px;
+	/*width: 604px;
+	height: 588px;*/
+	
+}
+.start-btn{
+	margin-top: 100px;
+	margin-left: 280px;
+	letter-spacing: 2px;
+	line-height: 51px;
+	font-size: 40px;
+	text-align: center;
+	width: 252px;
+	height: 57px;
+	border-radius: 20px;
+	color: #F7F7F7;
+	background-color: #1F3F9B;
+	transition-duration: 0.5s;
+	cursor: pointer;
+	color: #F7F7F7;
+	text-decoration: none;
+}
+
+
+.link a{
+	z-index: 9999;
+	cursor: pointer;
+	letter-spacing: 3px;
+	color: #353535;
+	font-size: 25px;
+}
+.article2{
+	margin-top: 10%;
+}
+.article3{
+	margin-top: 15%;
+}
+.KKday_Logo{
+	margin-left: 337px;
+	margin-top: 60px;
+	width: 472px;
+	height: 207px;
+}
+.r-Rectangle{
+	z-index: 1;
+	position: absolute;
+	margin-top: 30px;
+	right: 0;
+	width: 892px;
+	height: 485px;
+}
+
+
+.kkday-info p{
+	position: absolute;
+	z-index: 2;
+	margin-left:  94px;
+	margin-top: 30px;
+	letter-spacing: 3px;
+	font-size: 30px;
+	color: #353535;
+}
+
+.crime-info{
+	z-index: 0;
+	margin-top: 250px;
+	position: relative;
+}
+.crime{
+	position: absolute;
+	top: -6px;
+	right: 140px;
+	width: 380px;
+	height: 380px;
+}
+.crime-info p{
+	position: absolute;
+	z-index: 2;
+	letter-spacing: 3px;
+	margin-top: 223px;
+	margin-left: 232px;
+	width: 1180px;
+	font-size: 30px;
+	color: #353535;
+}
+.crime-info p:nth-of-type(2){
+	width: 950px;
+	margin-top: 330px;
+	margin-left: 450px;
+}
+.l-Rectangle{
+	position: absolute;
+	z-index: 1;
+	width: 892px;
+	height: 485px;
+}
+
+.l-wave{
+	z-index: 1;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 606px;
+	height: 339px;
+}
+
+.r-wave{
+	z-index: 1;
+	position: absolute;
+	bottom:  0;
+	right:  -60px;
+	width: 771px;
+	height: 387px;
+}
+
+.kkfish{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	z-index: 2;
+	width: 241.5px;
+}
+.badfish{
+	position: absolute;
+	z-index: 2;
+	top: 0;
+	right: 0;
+	width: 241.5px;
+}
+
+.question{
+	position: absolute;
+	z-index: 3;
+	top:40%;
+	left: 50%;
+	transform: translateX(-50%);
+	text-align: center;
+	color: #353535;
+}
+.question h1{
+	width: 1300px;
+	font-size: 70px;
+}
+
+.question p{
+	font-size: 30px;
+	margin-top: 50px;
+}
+.modellink{
+	margin-top: 150px;
+	margin-left: 540px;
+	cursor: pointer;
+}
+
+.article4 h1{
+	font-size: 60px;
+	color: #353535;
+}
+.all-effect{
+	margin-top: 80px;
+}
+.effect{
+	width: 388px;
+	height: 723px;
+}
+.effect img{
+	width: 243.8px;
+	height: 243.8px;
+}
+
+.effect p{
+	margin-top: 77px;
+	font-size: 40px;
+	letter-spacing: 3px;
+	color: #707070;
+}
+
+.we{
+	position: relative;
+	margin-top: 50px;
+	left: 220px;
+}
+.we p{
+	position: absolute;
+	top: 364px;
+	color: #F5E2C8;
+	font-size: 35px;
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+.you{
+	left: 220px;
+}
+.yu{
+	left: 493px;
+}
+.guan{
+	left: 760px;
+}
+.zi{
+	left: 1123px;
+}
+
+.watergrass{
+	position: absolute;
+	z-index: 1;
+	width: 405.5px;
+	height: 398.13px;
+	top: 132px;
+	left: 423.5px;
+}
+.ellipse{
+	position: absolute;
+	z-index: 0;
+	left: 0;
+	width: 100vw;
+}
+.circle-text-kkday{
+	position: absolute;
+	z-index: 1;
+	left: 999px;
+	top: 244px;
+	color: #f7f7f7;
+}
+
+.circle-text-kkday h1{
+	font-size: 55px;
+}
+
+.circle-text-kkday p{
+	font-size: 30px;
+}
+.circle-text-cdri{
+	position: absolute;
+	z-index: 1;
+	left: 1272px;
+	top: 244px;
+	color: #f7f7f7;
+}
+
+.circle-text-cdri h1{
+	font-size: 55px;
+}
+.circle-text-cdri p{
+	font-size: 30px;
+}
+
+}
+
+@media screen and (max-width:1024px) {
+
+/* 如果使用者視窗寬度 <= 1024px */
+
+
+.article1-title{
+	margin-left: 67px;
+	margin-top: 200px;
+	letter-spacing: 3px;
+	color: #353535;
+	font-size: 38px;
+	font-weight: bold;
+}
+.article1-title p{
+	line-height: 40px;
+}
+.article1-title p:nth-child(2){
+	margin-left: 180px;
+}
+
+.start-btn{
+	margin-top: 70px;
+	margin-left: 180px;
+	letter-spacing: 2px;
+	line-height: 37px;
+	font-size: 22px;
+	text-align: center;
+	width: 132px;
+	height: 37px;
+	border-radius: 20px;
+	color: #F7F7F7;
+	background-color: #1F3F9B;
+	transition-duration: 0.5s;
+	cursor: pointer;
+	color: #F7F7F7;
+	text-decoration: none;
+}
+
+.r-Rectangle,.l-Rectangle{
+	width: 400px;
+	height: 180.61px;
+	opacity: 0.6;
+}
+
+.KKday_Logo{
+	margin-left: 217px;
+	margin-top: 10px;
+	width: 211.81px;
+	height: 95.07px;
+}
+.r-Rectangle{
+	z-index: 1;
+	position: absolute;
+	margin-top: 0px;
+	right: 0;
+	height: 361.23px;
+}
+
+
+.kkday-info p{
+	position: absolute;
+	z-index: 2;
+	margin-left:  80px;
+	margin-top: 50px;
+	letter-spacing: 3px;
+	font-size: 15px;
+	color: #353535;
+}
+
+.crime-info{
+	z-index: 0;
+	margin-top: 150px;
+	position: relative;
+}
+.crime{
+	position: absolute;
+	top: 80px;
+	right: 100px;
+	width: 200px;
+	height: 200px;
+}
+.crime-info p{
+	position: absolute;
+	z-index: 2;
+	letter-spacing: 3px;
+	margin-top: 170px;
+	margin-left: 117px;
+	width: 500px;
+	font-size: 15px;
+	color: #353535;
+}
+.crime-info p:nth-of-type(2){
+	margin-top: 250px;
+	margin-left: 200px;
+}
+.l-Rectangle{
+	position: absolute;
+	z-index: 1;
+	height: 361.23px;
+}
+
+.question h1{
+	width: 800px;
+	font-size: 40px;
+}
+
+.question p{
+	font-size: 15px;
+	margin-top: 50px;
+}
+
+.modellink{
+	margin-top: 100px;
+	margin-left: 70px;
+	cursor: pointer;
+	/*border:1px solid;*/
+}
+
+
+.all-effect{
+	margin-top: 50px;
+	height: 100%;
+}
+.effect{
+	width: 200px;
+	height: 500px;
+}
+.effect img{
+	width: 150px;
+	height: 150px;
+}
+
+.effect p{
+	margin-top: 57px;
+	font-size: 25px;
+	letter-spacing: 3px;
+	color: #707070;
+}
+
+
+.we{
+	position: relative;
+	margin-top: 50px;
+	left: 90px;
+}
+.we p{
+	position: absolute;
+	top: 190px;
+	color: #F5E2C8;
+	font-size: 20px;
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+.you{
+	left: 100px;
+}
+.yu{
+	left: 240px;
+}
+.guan{
+	left:390px;
+}
+.zi{
+	left:590px;
+}
+
+.circle{
+	position: relative;
+}
+
+.watergrass{
+	position: absolute;
+	z-index: 1;
+	width: 200px;
+	height: 200px;
+	top: 150px;
+	left: 200px;
+}
+.ellipse{
+	position: absolute;
+	z-index: 0;
+	left: 0;
+	width: 100vw;
+	margin-top: 80px;
+	/*border: 1px solid;*/
+}
+.circle-text-kkday{
+	position: absolute;
+	z-index: 1;
+	left: 450px;
+	top: 160px;
+	color: #f7f7f7;
+}
+
+.circle-text-cdri{
+	position: absolute;
+	z-index: 1;
+	left: 610px;
+	top: 160px;
+	color: #f7f7f7;
+}
+
+}
+
+@media screen and (max-width: 900px){
+	/*        適用螢幕寬度 小於900 */
+	
+article{
+	width: 100vw;
+	height: 100%;
+	/*border: 1px solid;*/
+}
+.article1-title{
+	margin-left: 0vmin;
+	margin-top: 5%;
+	text-align: center;
+	letter-spacing: 3px;
+	color: #353535;
+	font-size:  8vmin;
+	font-weight: bold;
+}
+.article1-title p{
+	line-height: 100%;
+}
+.article1-title p:nth-child(2){
+	margin-left:  0vmin;
+}
+.link{
+	padding-top: 10px;
+	padding-right: 5vmin;
+}
+.link .model{
+	padding-left: 5vmin;
+}
+.link a{
+	z-index: 9999;
+	cursor: pointer;
+	letter-spacing: 3px;
+	color: #353535;
+	font-size: 3vmin;
+}
+.link a:hover{
+	text-decoration: underline;
+}
+.first-img{
+	position: static;
+	margin-left: 50%;
+	transform: translateX(-50%);
+	margin-top: 5vmin;
+	/*position: absolute;*/
+	/*top: 7vmin;*/
+	/*right: 3vmin;*/
+	/*width: 937px;
+	height: 911px;*/
+	/*width: 604px;
+	height: 588px;*/
+	width: 100vmin;
+}
+.start-btn{
+	margin-top: 5vmin;
+	margin-left: 50%;
+	transform: translateX(-50%);
+	letter-spacing: 2px;
+	line-height: 7vmin;
+	font-size: 5vmin;
+	text-align: center;
+	width: 25vmin;
+	height: 8vmin;
+	border-radius: 20px;
+	color: #F7F7F7;
+	background-color: #1F3F9B;
+	transition-duration: 0.5s;
+	cursor: pointer;
+	color: #F7F7F7;
+	text-decoration: none;
+}
+
+
+.r-Rectangle,.l-Rectangle{
+	width: 60vmin;
+	height: 60vmin;
+	opacity: 0.6;
+}
+
+.kkday-info{
+	/*position: relative;*/
+	z-index: 0;
+}
+.KKday_Logo{
+	margin-left: 8vmin;
+	width: 50vmin;
+	height: 50vmin;
+}
+.r-Rectangle{
+	z-index: 1;
+	/*position: absolute;*/
+	/*margin-top: 20px;*/
+	/*right: 0;*/
+}
+
+
+.kkday-info p{
+	/*position: absolute;*/
+	z-index: 2;
+	padding-left: 5vmin;
+	padding-right:  3vmin;
+	margin-top: 0px;
+	margin-left: 0;
+	letter-spacing: 3px;
+	font-size: 3vmin;
+	color: #353535;
+}
+
+.crime-info{
+	
+	z-index: 0;
+	margin-top: 0px;
+	position: relative;
+}
+.crime{
+	position: absolute;
+	margin-top:  28vmin;
+	margin-right: 5vmin;
+	right: 0px;
+	width: 35vmin;
+	height: 35vmin;
+	display: none;
+}
+
+.crime-info p{
+	position: static;
+	/*position: absolute;*/
+	z-index: 2;
+	letter-spacing: 3px;
+	padding-left: 5vmin;
+	padding-right:  3vmin;
+	margin-top: 0vmin;
+	margin-left: 0px;
+	width: 100%;
+	font-size: 3vmin;
+	color: #353535;
+}
+.crime-info p:nth-of-type(2){
+	margin-top: 0px;
+	margin-left: 0px;
+}
+.l-Rectangle{
+	position: static;
+	margin-top: 25vmin;
+	/*position: absolute;*/
+	z-index: 1;
+}
+
+.article3{
+	position: relative;
+	z-index: 0;
+}
+.l-wave{
+	z-index: 1;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 45vmin;
+	height: 45vmin;
+	opacity: 0.6;
+	
+}
+
+.kkfish{
+/*	position: absolute;
+	bottom: 0;
+	left: 0;
+	z-index: 2;*/
+	display: none;
+	}
+.badfish{
+/*	position: absolute;
+	z-index: 2;
+	top: 0;
+	right: 0;*/
+	display: none;
+}
+.question{
+	position: absolute;
+	z-index: 3;
+	top:40vmin;
+	left: 50%;
+	transform: translateX(-50%);
+	text-align: center;
+	color: #353535;
+
+}
+.question h1{
+	width: 100vmin;
+	font-size: 6vmin;
+}
+
+.question p{
+	width: 70vmin;
+	font-size: 3vmin;
+	margin-top: 2vmin;
+	margin-left: 15vmin;
+}
+
+.article4 {
+	padding-top: 90vmin;
+	text-align: center;
+	/*border: 1px solid black;*/
+}
+
+.article4 h1{
+	font-size: 7vmin;
+	color: #353535;
+	
+}
+.all-effect{
+	margin-top: 7vmin;
+	height: 100%;
+	
+}
+.effect{
+	width: 23vmin;
+	height: 40vmin;
+	/*border: 1px solid black;*/
+}
+.effect img{
+	width: 20vmin;
+	height: 20vmin;
+	
+}
+
+.effect p{
+	margin-top: 5vmin;
+	font-size: 3vmin;
+	letter-spacing: 3px;
+	color: #707070;
+	
+}
+
+.modellink{
+	margin-top: 20vmin;
+	margin-left: 50%;
+	transform: translateX(-50%);
+	cursor: pointer;
+	width: 100vmin;
+	/*border:1px solid;*/
+}
+.article6{
+	/*border: 1px solid black;*/
+}
+.we{
+	position: relative;
+	margin-top: 0px;
+	left: 50%;
+	transform: translateX(-40%);
+}
+.we p{
+	
+	position: absolute;
+	top: 17vmin;
+	color: #F5E2C8;
+	font-size: 2vmin;
+	font-weight: bold;
+	letter-spacing: 1px;
+}
+.you{
+	left:7vmin;
+	display: none;
+}
+.yu{
+	left: 15vmin;
+	display: none;
+}
+.guan{
+	left: 00px;
+	display: none;
+}
+.zi{
+	left: 0px;
+	display: none;
+}
+.team{
+	width: 80%;
+	height: 80%;
+}
+.circle{
+	position: relative;
+}
+.watergrass{
+	position: absolute;
+	z-index: 1;
+	width: 20vmin;
+	height: 20vmin;
+	top: 15vmin;
+	left:40vmin;
+
+}
+.ellipse{
+	position: absolute;
+	z-index: 0;
+	margin-left: 50%;
+	transform: translateX(-50%);
+	width: 100vmin;
+}
+.circle-text-kkday{
+	position: absolute;
+	z-index: 1;
+	left:75vmin;
+	top: 18vmin;
+	color: #f7f7f7;
+	/*color: #000;*/
+}
+
+.circle-text-cdri{
+	position: absolute;
+	z-index: 1;
+	left:65vmin;
+	top: 20vmin;
+	color: #f7f7f7;
+/*color: #000;*/
+}
+
+.circle-text-kkday h1{
+	font-size: 3vmin;
+}
+
+.circle-text-kkday p{
+	font-size: 2vmin;
+}
+.circle-text-cdri h1{
+	font-size: 3vmin;
+}
+.circle-text-cdri p{
+	font-size:2vmin;
+}
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 770px){
+	/*        適用螢幕寬度小於770 */
+	
+article{
+	width: 100vw;
+	height: 100%;
+	/*border: 1px solid;*/
+}
+.article1-title{
+	margin-left: 0vmin;
+	margin-top: 10%;
+	text-align: center;
+	letter-spacing: 3px;
+	color: #353535;
+	font-size:  8vmin;
+	font-weight: bold;
+}
+.article1-title p{
+	line-height: 100%;
+}
+.article1-title p:nth-child(2){
+	margin-left:  0vmin;
+}
+.link{
+	padding-top: 10px;
+	padding-right: 5vmin;
+}
+.link .model{
+	padding-left: 5vmin;
+}
+.link a{
+	z-index: 9999;
+	cursor: pointer;
+	letter-spacing: 3px;
+	color: #353535;
+	font-size: 3vmin;
+}
+.link a:hover{
+	text-decoration: underline;
+}
+.first-img{
+	position: static;
+	margin-left: 50%;
+	transform: translateX(-50%);
+	margin-top: 5vmin;
+	/*position: absolute;*/
+	/*top: 7vmin;*/
+	/*right: 3vmin;*/
+	/*width: 937px;
+	height: 911px;*/
+	/*width: 604px;
+	height: 588px;*/
+	width: 98vmin;
+}
+.start-btn{
+	margin-top: 5vmin;
+	margin-left: 50%;
+	transform: translateX(-50%);
+	letter-spacing: 2px;
+	line-height: 7vmin;
+	font-size: 5vmin;
+	text-align: center;
+	width: 25vmin;
+	height: 8vmin;
+	border-radius: 20px;
+	color: #F7F7F7;
+	background-color: #1F3F9B;
+	transition-duration: 0.5s;
+	cursor: pointer;
+	color: #F7F7F7;
+	text-decoration: none;
+}
+
+
+.r-Rectangle,.l-Rectangle{
+	width: 60vmin;
+	height: 60vmin;
+	opacity: 0.6;
+}
+
+.kkday-info{
+	/*position: relative;*/
+	z-index: 0;
+}
+.KKday_Logo{
+	margin-left: 10vmin;
+	width: 50vmin;
+	height: 50vmin;
+}
+.r-Rectangle{
+	z-index: 1;
+	/*position: absolute;*/
+	/*margin-top: 20px;*/
+	/*right: 0;*/
+}
+
+
+.kkday-info p{
+	/*position: absolute;*/
+	z-index: 2;
+	padding-left: 5vmin;
+	padding-right:  3vmin;
+	margin-top: 0px;
+	margin-left: 0;
+	letter-spacing: 3px;
+	font-size: 3vmin;
+	color: #353535;
+}
+
+.crime-info{
+	
+	z-index: 0;
+	margin-top: 0px;
+	position: relative;
+}
+.crime{
+	position: absolute;
+	margin-top:  28vmin;
+	margin-right: 5vmin;
+	right: 0px;
+	width: 35vmin;
+	height: 35vmin;
+	display: none;
+}
+
+.crime-info p{
+	position: static;
+	/*position: absolute;*/
+	z-index: 2;
+	letter-spacing: 3px;
+	padding-left: 5vmin;
+	padding-right:  3vmin;
+	margin-top: 0vmin;
+	margin-left: 0px;
+	width: 100%;
+	font-size: 3vmin;
+	color: #353535;
+}
+.crime-info p:nth-of-type(2){
+	margin-top: 0px;
+	margin-left: 0px;
+}
+.l-Rectangle{
+	position: static;
+	margin-top: 25vmin;
+	/*position: absolute;*/
+	z-index: 1;
+}
+
+.article3{
+	position: relative;
+	z-index: 0;
+}
+.l-wave{
+	z-index: 1;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 45vmin;
+	height: 45vmin;
+	opacity: 0.6;
+	
+}
+
+.kkfish{
+/*	position: absolute;
+	bottom: 0;
+	left: 0;
+	z-index: 2;*/
+	display: none;
+	}
+.badfish{
+/*	position: absolute;
+	z-index: 2;
+	top: 0;
+	right: 0;*/
+	display: none;
+}
+.question{
+	position: absolute;
+	z-index: 3;
+	top:40vmin;
+	left: 50%;
+	transform: translateX(-50%);
+	text-align: center;
+	color: #353535;
+
+}
+.question h1{
+	width: 100vmin;
+	font-size: 5vmin;
+}
+
+.question p{
+	width: 70vmin;
+	font-size: 3vmin;
+	margin-top: 2vmin;
+	margin-left: 15vmin;
+}
+
+.article4 {
+	padding-top: 90vmin;
+	text-align: center;
+	/*border: 1px solid black;*/
+}
+
+.article4 h1{
+	font-size: 7vmin;
+	color: #353535;
+	
+}
+.all-effect{
+	margin-top: 7vmin;
+	height: 100%;
+	
+}
+.effect{
+	width: 23vmin;
+	height: 40vmin;
+	/*border: 1px solid black;*/
+}
+.effect img{
+	width: 20vmin;
+	height: 20vmin;
+	
+}
+
+.effect p{
+	margin-top: 5vmin;
+	font-size: 3vmin;
+	letter-spacing: 3px;
+	color: #707070;
+	
+}
+
+.modellink{
+	margin-top: 20vmin;
+	margin-left: 50%;
+	transform: translateX(-50%);
+	cursor: pointer;
+	width: 100vmin;
+	/*border:1px solid;*/
+}
+.article6{
+	/*border: 1px solid black;*/
+}
+.we{
+	position: relative;
+	margin-top: 0px;
+	/*left: 10vmin;*/
+	width: 100vmin;
+
+}
+.we p{
+	
+	position: absolute;
+	top: 17vmin;
+	color: #F5E2C8;
+	font-size: 2vmin;
+	font-weight: bold;
+	letter-spacing: 1px;
+}
+.you{
+	left:7vmin;
+	display: none;
+}
+.yu{
+	left: 15vmin;
+	display: none;
+}
+.guan{
+	left: 00px;
+	display: none;
+}
+.zi{
+	left: 0px;
+	display: none;
+}
+.team{
+	width: 80%;
+	height: 80%;
+}
+.circle{
+	position: relative;
+}
+.watergrass{
+	position: absolute;
+	z-index: 1;
+	width: 20vmin;
+	height: 20vmin;
+	top: -3vmin;
+	left:40vmin;
+
+}
+.ellipse{
+	position: absolute;
+	z-index: 0;
+	margin-left: 50%;
+	transform: translateX(-50%);
+	width: 100vmin;
+}
+.circle-text-kkday{
+	position: absolute;
+	z-index: 1;
+	left:52vmin;
+	top: 20vmin;
+	color: #f7f7f7;
+	/*color: #000;*/
+}
+
+.circle-text-cdri{
+	position: absolute;
+	z-index: 1;
+	left:40vmin;
+	top: 25vmin;
+	color: #f7f7f7;
+/*color: #000;*/
+}
+
+.circle-text-kkday h1{
+	font-size: 3vmin;
+}
+
+.circle-text-kkday p{
+	font-size: 2vmin;
+}
+.circle-text-cdri h1{
+	font-size: 3vmin;
+}
+.circle-text-cdri p{
+	font-size:2vmin;
+}
+
+}

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="490.554" height="266.725" viewBox="0 0 490.554 266.725">
+  <g id="Group_17" data-name="Group 17" transform="translate(0)">
+    <path id="Path_543" data-name="Path 543" d="M133.362,0H357.191a133.362,133.362,0,1,1,0,266.725H133.362A133.362,133.362,0,0,1,133.362,0Z" fill="#eec285"/>
+    <text id="Accuracy_" data-name="Accuracy   =     " transform="translate(40.01 130.963)" fill="#f3f3f3" font-size="28" font-family="MicrosoftJhengHeiRegular, Microsoft JhengHei" letter-spacing="0.05em"><tspan x="0" y="0" xml:space="preserve">Accuracy   =   </tspan></text>
+    <line id="Line_25" data-name="Line 25" x2="184.846" transform="translate(262.354 124.333)" fill="none" stroke="#f3f3f3" stroke-width="1"/>
+    <text id="TP_TN_" data-name="TP + TN " transform="translate(295.01 91.963)" fill="#f3f3f3" font-size="28" font-family="MicrosoftJhengHeiRegular, Microsoft JhengHei" letter-spacing="0.05em"><tspan x="0" y="0">TP + TN</tspan></text>
+    <text id="P_N_" data-name="P + N " transform="translate(313.01 169.963)" fill="#f3f3f3" font-size="28" font-family="MicrosoftJhengHeiRegular, Microsoft JhengHei" letter-spacing="0.05em"><tspan x="0" y="0">P + N</tspan></text>
+    <text id="越高表示模型越準確_" data-name="越高表示模型越準確 " transform="translate(127.01 225.963)" fill="#f3f3f3" font-size="24" font-family="MicrosoftJhengHeiRegular, Microsoft JhengHei" letter-spacing="0.05em"><tspan x="0" y="0">越高表示模型越準確</tspan></text>
+  </g>
+</svg>
