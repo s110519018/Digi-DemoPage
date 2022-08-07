@@ -1,4 +1,4 @@
-## DIGI⁺ Talent跨域數位人才加速躍升計畫
+## DIGI⁺ Talent跨域數位人才加速躍升計畫 實習成果網頁
 
 實習單位: 商研院 KKday  
 Demo用互動網頁 [網頁連結](https://frauddetection-credit.herokuapp.com/catalog/)  
